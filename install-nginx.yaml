@@ -1,5 +1,5 @@
 ---
-- hosts: "{{hosts}}"
+- hosts: ec2test
   tasks:
     - name: install nginx
       apt: name=nginx state=latest
