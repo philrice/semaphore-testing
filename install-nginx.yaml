@@ -1,4 +1,5 @@
 ---
+- hosts:
   tasks:
     - name: install nginx
       apt: name=nginx state=latest
